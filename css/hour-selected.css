@@ -1,0 +1,25 @@
+.hourSelected {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1rem;
+    justify-content: space-between;
+}
+
+.hourSelected[hidden] {
+    display: none;
+  }
+
+.hourSelected-specs {
+    display: flex;
+    color: var(--white);
+    padding-block-end: 1rem;
+}
+
+.hourSelected-specs label {
+    flex: 1;
+}
+
+.hourSelected-specs h3 {
+    display: inline;
+}
+
